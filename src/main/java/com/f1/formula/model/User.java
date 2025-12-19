@@ -15,20 +15,27 @@ public class User {
     private Integer id;
     @Setter
     @Getter
+    @Column(nullable = false)
     private String firstName;
     @Setter
     @Getter
+    @Column(unique = true,nullable = false)
     private String userName;
     @Setter
     @Getter
+    @Column(nullable = false)
     private String lastName;
     @Setter
     @Getter
+    @Column(unique = true,nullable = false)
     private String email;
     @Setter
     @Getter
+
+    @Column(unique = true,nullable = false)
     private Integer phoneNumber;
     @Setter
     @Getter
+    @Column(nullable = false)
     private String password;
 }

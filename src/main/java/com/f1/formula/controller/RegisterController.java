@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/register")
 public class RegisterController {
@@ -21,8 +22,11 @@ public class RegisterController {
 
     @PostMapping
     public ResponseEntity<?> register(@RequestBody User user) {
-
-        return new ResponseEntity<>(registerService.register(user),HttpStatus.CREATED);
+        try{
+            return new ResponseEntity<>(registerService.register(user),HttpStatus.CREATED);
+        } catch (Exception e){
+            return new ResponseEntity<>(e.getMessage(),HttpStatus.BAD_REQUEST);
+        }
     }
 }
 
