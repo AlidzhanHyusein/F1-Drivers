@@ -1,0 +1,23 @@
+# Maven / Gradle build folders
+/target/
+/build/
+
+# IDE files
+/.idea/
+/*.iml
+/.classpath
+/.project
+
+# Logs
+*.log
+
+# Application config files (sensitive info)
+/src/main/resources/application.properties
+/src/main/resources/application.yml
+
+# Environment-specific files
+/src/main/resources/application-*.properties
+
+# Optional: OS-specific
+.DS_Store
+Thumbs.db
