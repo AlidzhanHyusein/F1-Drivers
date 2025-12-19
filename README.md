@@ -1,6 +1,6 @@
 ﻿# F1-Drivers
 
-## THE PROJECT IS NOT READY YET
+# THE PROJECT IS NOT READY YET
 
 ## Overview
 This project tracks **F1 drivers** and their rankings each season. It shows which drivers are in **1st, 2nd, and 3rd place** based on their points, making it easy to follow the latest standings.
@@ -33,5 +33,6 @@ This project tracks **F1 drivers** and their rankings each season. It shows whic
 1. Clone the repository:
    ```bash
    git clone https://github.com/USERNAME/F1-Drivers.git
+
 
 
