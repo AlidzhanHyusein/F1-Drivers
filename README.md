@@ -10,7 +10,7 @@ This project tracks **F1 drivers** and their rankings each season. It shows whic
 ## Features
 - Displays the top 3 F1 drivers of the current season.
 - Tracks driver points and positions.
-- Updates automatically for each new season (if integrated with live data).
+- Updates automatically for each new season.
 
 ---
 
@@ -33,6 +33,7 @@ This project tracks **F1 drivers** and their rankings each season. It shows whic
 1. Clone the repository:
    ```bash
    git clone https://github.com/USERNAME/F1-Drivers.git
+
 
 
 
