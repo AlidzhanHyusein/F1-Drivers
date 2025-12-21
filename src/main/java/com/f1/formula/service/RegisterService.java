@@ -4,6 +4,7 @@ package com.f1.formula.service;
 import com.f1.formula.model.User;
 import com.f1.formula.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
